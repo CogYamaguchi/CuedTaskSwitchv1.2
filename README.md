@@ -2,7 +2,7 @@
 
 This respository hosts a cued task switching paradigm. For online data collection, the task needs to be integrated into Qualtrics or other survey hosting service. Insert the url: 
 
-https://cogyamaguchi.github.io/CuedTaskSwitchV1/ 
+https://cogyamaguchi.github.io/CuedTaskSwitchv1.2/ 
 
 in a sruvey. See the instructions [here](https://labjs.readthedocs.io/en/latest/learn/deploy/3a-qualtrics.html) to learn how you can integrate a Lab.js experiment into a Qualtrics survey. Data will be saved as survey responses.
 
