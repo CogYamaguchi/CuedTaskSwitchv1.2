@@ -48,12 +48,12 @@ const study = lab.util.fromObject({
           "left": 0,
           "top": 250,
           "angle": 0,
-          "width": 26.92,
+          "width": 36.93,
           "height": 13.56,
           "stroke": null,
           "strokeWidth": 1,
           "fill": "black",
-          "text": "V.1.2",
+          "text": "V.1.2.2",
           "fontStyle": "normal",
           "fontWeight": "normal",
           "fontSize": "12",
@@ -162,6 +162,8 @@ this.data.viewScale=this.data.dpi/100
       "messageHandlers": {
         "before:prepare": function anonymous(
 ) {
+this.state.block=0;
+
 document.body.style.cursor = 'none';
 
 let shapeArray=["Square","Diamond","Heart","Star"];
@@ -406,8 +408,16 @@ this.parameters.colour4=colourArray[3];
           "files": {},
           "responses": {},
           "parameters": {},
-          "messageHandlers": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+this.state.trial=0;
+this.state.block+=1;
+this.parameters.block=this.state.block;
+}
+          },
           "title": "TaskSwitch_Practice_loop",
+          "tardy": true,
           "shuffleGroups": [],
           "template": {
             "type": "lab.flow.Sequence",
@@ -417,6 +427,9 @@ this.parameters.colour4=colourArray[3];
             "messageHandlers": {
               "before:prepare": function anonymous(
 ) {
+this.state.trial+=1;
+this.parameters.trial=this.state.trial;
+
 var cue
 var stimColour
 var stimShape
@@ -952,6 +965,9 @@ this.options.viewportScale = this.state.viewScale
             "messageHandlers": {
               "before:prepare": function anonymous(
 ) {
+this.state.trial+=1;
+this.parameters.trial=this.state.trial;
+
 var cue
 var stimColour
 var stimShape
@@ -1474,8 +1490,16 @@ this.options.viewportScale = this.state.viewScale
           "files": {},
           "responses": {},
           "parameters": {},
-          "messageHandlers": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+this.state.trial=0;
+this.state.block+=1;
+this.parameters.block=this.state.block;
+}
+          },
           "title": "TaskSwitchTest_loop1",
+          "tardy": true,
           "shuffleGroups": [],
           "template": {
             "type": "lab.flow.Sequence",
@@ -1485,6 +1509,9 @@ this.options.viewportScale = this.state.viewScale
             "messageHandlers": {
               "before:prepare": function anonymous(
 ) {
+this.state.trial+=1;
+this.parameters.trial=this.state.trial;
+
 var cue
 var stimColour
 var stimShape
@@ -2006,8 +2033,16 @@ this.options.viewportScale = this.state.viewScale
           "files": {},
           "responses": {},
           "parameters": {},
-          "messageHandlers": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+this.state.trial=0;
+this.state.block+=1;
+this.parameters.block=this.state.block;
+}
+          },
           "title": "TaskSwitchTest_loop2",
+          "tardy": true,
           "shuffleGroups": [],
           "template": {
             "type": "lab.flow.Sequence",
@@ -2017,6 +2052,9 @@ this.options.viewportScale = this.state.viewScale
             "messageHandlers": {
               "before:prepare": function anonymous(
 ) {
+this.state.trial+=1;
+this.parameters.trial=this.state.trial;
+
 var cue
 var stimColour
 var stimShape
@@ -2410,8 +2448,16 @@ this.options.viewportScale = this.state.viewScale
           "files": {},
           "responses": {},
           "parameters": {},
-          "messageHandlers": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+this.state.trial=0;
+this.state.block+=1;
+this.parameters.block=this.state.block;
+}
+          },
           "title": "TaskSwitchTest_loop3",
+          "tardy": true,
           "shuffleGroups": [],
           "template": {
             "type": "lab.flow.Sequence",
@@ -2421,6 +2467,9 @@ this.options.viewportScale = this.state.viewScale
             "messageHandlers": {
               "before:prepare": function anonymous(
 ) {
+this.state.trial+=1;
+this.parameters.trial=this.state.trial;
+
 var cue
 var stimColour
 var stimShape
@@ -2942,8 +2991,16 @@ this.options.viewportScale = this.state.viewScale
           "files": {},
           "responses": {},
           "parameters": {},
-          "messageHandlers": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+this.state.trial=0;
+this.state.block+=1;
+this.parameters.block=this.state.block;
+}
+          },
           "title": "TaskSwitchTest_loop4",
+          "tardy": true,
           "shuffleGroups": [],
           "template": {
             "type": "lab.flow.Sequence",
@@ -2953,6 +3010,9 @@ this.options.viewportScale = this.state.viewScale
             "messageHandlers": {
               "before:prepare": function anonymous(
 ) {
+this.state.trial+=1;
+this.parameters.trial=this.state.trial;
+
 var cue
 var stimColour
 var stimShape
