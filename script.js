@@ -646,6 +646,25 @@ this.parameters.corrResp=cResp;
 this.parameters.trialType=trialType
 this.parameters.handCue=handcue;
 
+
+
+// response congruity
+var rComp
+if(stimShape===this.parameters.shape1 || stimShape===this.parameters.shape2){
+  if(stimColour===this.parameters.colour1 || stimColour===this.parameters.colour2){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}else{
+  if(stimColour===this.parameters.colour3 || stimColour===this.parameters.colour4){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}
+this.parameters.rComp=rComp
+
 }
             },
             "title": "TaskSwitchTrial_sequence",
@@ -1183,6 +1202,25 @@ this.parameters.taskCue=cue;
 this.parameters.corrResp=cResp;
 this.parameters.trialType=trialType
 this.parameters.handCue=handcue;
+
+
+
+// response congruity
+var rComp
+if(stimShape===this.parameters.shape1 || stimShape===this.parameters.shape2){
+  if(stimColour===this.parameters.colour1 || stimColour===this.parameters.colour2){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}else{
+  if(stimColour===this.parameters.colour3 || stimColour===this.parameters.colour4){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}
+this.parameters.rComp=rComp
 
 
 }
@@ -1728,6 +1766,25 @@ this.parameters.corrResp=cResp;
 this.parameters.trialType=trialType
 this.parameters.handCue=handcue;
 
+
+
+// response congruity
+var rComp
+if(stimShape===this.parameters.shape1 || stimShape===this.parameters.shape2){
+  if(stimColour===this.parameters.colour1 || stimColour===this.parameters.colour2){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}else{
+  if(stimColour===this.parameters.colour3 || stimColour===this.parameters.colour4){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}
+this.parameters.rComp=rComp
+
 }
             },
             "title": "TaskSwitchTrial_sequence",
@@ -2142,6 +2199,25 @@ this.parameters.taskCue=cue;
 this.parameters.corrResp=cResp;
 this.parameters.trialType=trialType
 this.parameters.handCue=handcue;
+
+
+
+// response congruity
+var rComp
+if(stimShape===this.parameters.shape1 || stimShape===this.parameters.shape2){
+  if(stimColour===this.parameters.colour1 || stimColour===this.parameters.colour2){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}else{
+  if(stimColour===this.parameters.colour3 || stimColour===this.parameters.colour4){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}
+this.parameters.rComp=rComp
 
 }
             },
@@ -2686,6 +2762,25 @@ this.parameters.corrResp=cResp;
 this.parameters.trialType=trialType
 this.parameters.handCue=handcue;
 
+
+
+// response congruity
+var rComp
+if(stimShape===this.parameters.shape1 || stimShape===this.parameters.shape2){
+  if(stimColour===this.parameters.colour1 || stimColour===this.parameters.colour2){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}else{
+  if(stimColour===this.parameters.colour3 || stimColour===this.parameters.colour4){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}
+this.parameters.rComp=rComp
+
 }
             },
             "title": "TaskSwitchTrial_sequence",
@@ -3228,6 +3323,25 @@ this.parameters.taskCue=cue;
 this.parameters.corrResp=cResp;
 this.parameters.trialType=trialType
 this.parameters.handCue=handcue;
+
+
+
+// response congruity
+var rComp
+if(stimShape===this.parameters.shape1 || stimShape===this.parameters.shape2){
+  if(stimColour===this.parameters.colour1 || stimColour===this.parameters.colour2){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}else{
+  if(stimColour===this.parameters.colour3 || stimColour===this.parameters.colour4){
+    rComp=1;
+  }else{
+    rComp=2;
+  }
+}
+this.parameters.rComp=rComp
 
 }
             },
