@@ -4,7 +4,7 @@ This respository hosts a cued task switching paradigm. For online data collectio
 
 https://cogyamaguchi.github.io/CuedTaskSwitchv1.2/ 
 
-in a sruvey. See the instructions [here](https://labjs.readthedocs.io/en/latest/learn/deploy/3a-qualtrics.html) to learn how you can integrate a Lab.js experiment into a Qualtrics survey. Data will be saved as survey responses.
+in a sruvey. See the instructions [here](https://labjs.readthedocs.io/en/latest/learn/deploy/3a-qualtrics.html) to learn how you can integrate a Lab.js experiment into a Qualtrics survey. Data will be saved as survey responses. [UPDATE: the intergration of lab.js into Qualtrics does not work well without additional JavaScript codes to be added. In principle, you need to separate the entire data into several embedded data in Qualtrics to overcome the limitation of data size for one embedded data that Qualtrics started to imposed in 2020.]
 
 ## Task parameters
 The experiment consists of two tasks, colour and shape tasks. Participants are presented with a task cue that lasts for 1000 ms and then a target that lasts for up to 2000 ms or until a response is made. The task cue is either 'COLOUR' or 'SHAPE,' and the target is a coloured shape. The colour can be blue, green, red, or purple; the shape can be square, diamond, heart, or start. The response keys are 'c' or 'm' (i.e., left and right keys on a QUARTY keyboard). A set of two colours and two shapes are randomly selected for each participant and are assigned to either of the response keys; the remaining colours and shapes are assgined to the other key. The assigned colours/shapes are shown on the respective side of the target during the trial (see Figure 1).
